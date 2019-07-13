@@ -1,0 +1,51 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* navbar */
+.navbar{
+    background: #090909 !important;
+}
+.nav-link{
+    letter-spacing: 2px;
+}
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+/* desktop version */
+@media (min-width: 992px) { 
+
+    /* navbar */
+    .navbar{
+        background: transparent !important;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+        letter-spacing: 2px;
+    }
+
+    /* on hover navbar */
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #EF1212;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* jumbotron */
+    .jumbotron{
+        margin-top: -87px;
+        height: 100vh;
+    }
+
+ }
