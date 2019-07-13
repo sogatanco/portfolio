@@ -5,3 +5,9 @@
 
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ <!-- Internal CSS -->
+ <link rel="stylesheet" href="<?php echo base_url();?>asset/css/main.css">
+
+ <!-- Internal JS -->
+<script src="<?php echo base_url();?>asset/js/main.js"></script>
