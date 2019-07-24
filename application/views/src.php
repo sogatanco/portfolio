@@ -14,3 +14,6 @@
 
 <!-- my Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<!-- js-Cookies CDN -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
