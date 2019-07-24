@@ -32,12 +32,15 @@ body{
 }
 .jumbotron .container{
     padding-left: 50px !important;
-    padding-top: 100px !important;
+    padding-top: 150px !important;
     padding-right: 50px !important;
 }
 .jumbotron strong{
     color:red;
     font-weight: 9000 !important;
+}
+#home .btn{
+    font-size: 10px !important;
 }
 
 
@@ -87,6 +90,10 @@ body{
     }
     .jumbotron p{
         font-size: 17px;
+    }
+    #home .btn{
+        font-size: 17px !important;
+        margin-right:15px;
     }
 
  }
