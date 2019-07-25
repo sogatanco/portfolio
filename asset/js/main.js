@@ -17,4 +17,11 @@ $(document).ready(function(){
             Cookies.set('color', 'back');
         }
     });
+
+    // go to target on scroll icon click
+    $('.scroll').click(function(){
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 1000);
+    });
 });

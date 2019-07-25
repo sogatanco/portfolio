@@ -40,7 +40,7 @@
 <!-- end home -->
 
 <!-- about -->
-<div id="about" style="height:1500px; padding-top:70px ">saya</div>
+<div id="about" style="height:1500px; padding-top:100px ">saya</div>
 <!-- end about -->
 
 <!-- service -->
