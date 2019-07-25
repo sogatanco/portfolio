@@ -9,7 +9,6 @@ you can get in touch with me.</p>
         <div class="scroll text-center">
           <img src="<?php echo base_url();?>asset/img/mouse.gif" >
           <br><small>SCROLL</small>
-        </div>
-        
+        </div>   
   </div>
 </div>

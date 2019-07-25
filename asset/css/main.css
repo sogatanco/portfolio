@@ -27,7 +27,7 @@ body{
     color: #ffffff;
     font-size: 20px;
 }
-.jumbotron p{
+ p{
     color:#E3DADA;
     font-size: 10px;
 }
@@ -63,6 +63,28 @@ body{
     color:#F7F7F7;
     letter-spacing: 2px;
 }
+
+/* stripped background */
+.bg-1{
+    background: #ffffff;
+    padding: 5px;
+}
+.title{
+    letter-spacing: 2px; 
+    font-size: 14px;
+}
+
+.title::after{
+    content: '';
+    display: block; 
+    border-bottom: 2px solid #EF1212;
+    width: 15%;
+    margin: auto;  
+    padding-top: 3px; 
+}
+
+
+
 
 
 
@@ -110,12 +132,33 @@ body{
     .jumbotron .container{
         padding: 150px !important;
     }
-    .jumbotron p{
+    p{
         font-size: 17px;
     }
     #home .btn{
         font-size: 17px !important;
         margin-right:15px;
+    }
+
+    /* about */
+    .bg-1 .container{
+        padding-left: 100px;
+    }
+    .bg-1{
+        padding: 70px;
+    }
+    .title{
+        letter-spacing: 3px; 
+        font-size: 25px;
+    }
+    
+    .title::after{
+        content: '';
+        display: block; 
+        border-bottom: 3px solid #EF1212;
+        width: 5%;
+        margin: auto;  
+        padding-top: 3px; 
     }
 
  }

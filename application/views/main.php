@@ -9,7 +9,7 @@
     ?>
     <title>Sogata.Co | My PortFolio</title>
 </head>
-<body data-spy="scroll" data-target="#mynavbar" data-offset="100">
+<body data-spy="scroll" data-target="#mynavbar" data-offset="70">
 
 <!-- start navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mynavbar">
@@ -40,7 +40,9 @@
 <!-- end home -->
 
 <!-- about -->
-<div id="about" style="height:1500px; padding-top:100px ">saya</div>
+<?php
+  $this->load->view('about')
+?>
 <!-- end about -->
 
 <!-- service -->
