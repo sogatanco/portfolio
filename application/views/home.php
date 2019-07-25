@@ -6,5 +6,10 @@
 you can get in touch with me.</p>   
         <button class="btn btn-danger">Get in touch &nbsp;&nbsp;<i class="fas fa-angle-right"></i></button>
         <button class="btn btn-light">View my CV &nbsp;&nbsp;<i class="fas fa-angle-right"></i></button>
+        <div class="scroll text-center">
+          <img src="<?php echo base_url();?>asset/img/mouse.gif" >
+          <br><small>SCROLL</small>
+        </div>
+        
   </div>
 </div>

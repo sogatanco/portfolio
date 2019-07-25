@@ -21,6 +21,7 @@ body{
     background-image: url(../img/back.gif);
     height: 100vh;
     background-position: left; 
+    position: relative;
 }
 .jumbotron h1{
     color: #ffffff;
@@ -34,6 +35,7 @@ body{
     padding-left: 50px !important;
     padding-top: 150px !important;
     padding-right: 50px !important;
+    
 }
 .jumbotron strong{
     color:red;
@@ -42,6 +44,23 @@ body{
 #home .btn{
     font-size: 10px !important;
 }
+
+/* scroll mause gif */
+.scroll{
+    position:absolute;
+    bottom: 0;
+    margin-left: 27%;
+    width: 10%;
+    margin-bottom: 25px;
+}
+.scroll img{
+    width: 50px;
+}
+.scroll small{
+    color:#F7F7F7;
+    letter-spacing: 2px;
+}
+
 
 
 
