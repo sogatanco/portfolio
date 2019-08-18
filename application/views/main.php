@@ -9,7 +9,7 @@
     ?>
     <title>Sogata.Co | My PortFolio</title>
 </head>
-<body data-spy="scroll" data-target="#mynavbar" data-offset="70">
+<body data-spy="scroll" data-target="#mynavbar" data-offset="90">
 
 <!-- start navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mynavbar">
