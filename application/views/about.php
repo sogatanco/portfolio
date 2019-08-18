@@ -8,13 +8,14 @@
                     <h5>Wahyudin <span class="text-muted">(sogata)</span></h5>
                     <p class="text-secondary">I’m 21 years old from Aceh - Indonesia. I’m a <span class="text-danger">freelancer</span> who focuses on web and android applications development. My experience in this expertise has been over three years. 
                     <span class="text-danger">Entrust your business to me !</span></p>
-                </div>
+                    <h4><a class="fab fa-youtube"></a> <a class="fab fa-instagram"></a> <a class="fab fa-github"></a>  <a class="fab fa-twitter"></a></h4>
+                </div> 
                 <!-- skill progress bar -->
                 <div class="col-sm-7 skill">
                     <div class="progress">
                         <div class="progress-bar bg-danger text-left" style="width:20%">HTML/CSS</div>
-                        <div class="progress-bar bg-secondary text-left" style="width:72%"></div>
-                        <div class="progress-bar bg-transparent text-secondary text-right" style="width:8%">90%</div>
+                        <div class="progress-bar bg-secondary text-left" style="width:68%"></div>
+                        <div class="progress-bar bg-transparent text-secondary text-right" style="width:12%">85%</div>
                     </div>
 
                     <div class="progress">
@@ -67,8 +68,8 @@
 
                     <div class="progress">
                         <div class="progress-bar bg-danger text-left" style="width:20%">WordPress</div>
-                        <div class="progress-bar bg-secondary text-left" style="width:72%"></div>
-                        <div class="progress-bar bg-transparent text-secondary text-right" style="width:8%">90%</div>
+                        <div class="progress-bar bg-secondary text-left" style="width:68%"></div>
+                        <div class="progress-bar bg-transparent text-secondary text-right" style="width:12%">85%</div>
                     </div>
 
                 </div>
