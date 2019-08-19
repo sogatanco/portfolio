@@ -24,7 +24,7 @@
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#about">About</a>
-          <a class="nav-item nav-link" href="#service">Services</a>
+          <a class="nav-item nav-link" href="#services">Services</a>
           <a class="nav-item nav-link" href="#">Portfolio</a>
           <a class="nav-item nav-link" href="#">Contact</a>
         </div>
@@ -46,7 +46,9 @@
 <!-- end about -->
 
 <!-- service -->
-<div id="service" style="height:1000px;background:#000000">saya</div>
+<?php
+  $this->load->view('services')
+?>
 <!-- end service -->
   
 </body>

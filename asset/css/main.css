@@ -67,8 +67,7 @@ body{
 /* stripped background */
 .bg-1{
     background: #ffffff;
-    padding: 25px;
-    
+    padding: 25px; 
 }
 .title{
     letter-spacing: 2px; 
@@ -93,7 +92,7 @@ body{
     border-radius: 0px;
     margin-bottom: 10px;
 }
-.img-thumbnail{
+#about .img-thumbnail{
     width: 170px;
     margin-bottom: 10px;
 }
@@ -106,10 +105,23 @@ body{
     margin-right:6px;
 }
 
+/* bg 2 */
 
+.bg-2{
+    background: #F7F7F7;
+    padding: 25px; 
+}
 
+/* services */
 
+#services .col-sm-3, #services .col-6{
+    padding-top: 15px;
+}
 
+#services h5{
+    margin-top: 8px;
+    font-size: 15px;
+}
 
 
 /* desktop version */
@@ -163,16 +175,16 @@ body{
     }
 
     /* about */
-    .bg-1 .container{
+    .bg-1 .container, .bg-2 .container{
         padding-left: 100px;
     }
-    .bg-1{
+    .bg-1, .bg-2{
         padding: 100px;
     }
     .title{
         letter-spacing: 3px; 
         font-size: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     .title::after{
@@ -191,13 +203,19 @@ body{
     .skill{
         margin-top: 10px;
     }
-    .img-thumbnail{
+    #about .img-thumbnail{
         width: 210px;
         margin-bottom: 10px;
     }
 
     .fab{
         margin-right:10px;
+    }
+
+    /* services */
+    #services h5{
+        margin-top: 12px;
+        font-size: 23px;
     }
     
  }
