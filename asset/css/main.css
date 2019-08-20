@@ -99,6 +99,7 @@ body{
 
 .progress-bar{
     padding: 10px;
+    font-size: 8px;
 }
 
 .fab{
@@ -199,6 +200,9 @@ body{
         border-radius: 0px;
         height: 23px;
         margin-bottom: 20px;
+    }
+    .progress-bar{
+        font-size: 12px;
     }
     .skill{
         margin-top: 10px;
